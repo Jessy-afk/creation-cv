@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "raleway";
+    src: url('../font/Raleway/Raleway-VariableFont_wght.woff') format('web open font'),
+         url('../font/Raleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+         url('../font/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('trutype');
+}
+
+@font-face{
+    font-family: "lato";
+    src: url('../font/Lato/Lato-Regular.woff') format('web open font'),
+         url('../font/Lato/Lato-Regular.ttf') format('trutype'),
+         url('../font/Lato/Lato-Italic.ttf') format('trutype');
+}
