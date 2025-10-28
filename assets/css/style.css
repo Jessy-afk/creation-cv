@@ -1,4 +1,4 @@
-@font-face {
+@font-face { 
     font-family: "raleway";
     src: url('../font/raleway/Raleway-VariableFont_wght.woff') format('web open font'),
          url('../font/raleway/Raleway-VariableFont_wght.ttf') format('truetype'),
@@ -14,15 +14,18 @@
 
 body{
     font-family: "raleway", sans-serif;
-    margin: 0;
+    margin-top: 0;
     width: 1160px;
+    margin-bottom: 0;
     margin:auto;
 }
 
+/* je n'arrive pas à aligner le texte à droite */
 header{
     display: flex;
     background-color: #17abb3;
     margin-bottom: 0;
+    text-align: right;
 }
 
 nav{
@@ -31,23 +34,35 @@ nav{
     flex-basis: row;
     margin-top: 0;
     align-self: left;
-    width: 500px;
+    width: 600px;
     flex-wrap: wrap;
 }
 
-div{
-    display:flex;
-    
+nav ul{
+    text-align: left;
 }
+
+/* Je n'arrive pas à mettre les éléments en ligne vers le bas */
 
 main{
     display:flex;
     flex-basis: row;
+    margin-top:0;
+    align-self: left;
+    width: auto;
 }
 
 a{
     text-decoration: none;
     color: #ffffff;
+}
+
+p b{
+    text-align:left;
+}
+
+p small{
+    text-align:left;
 }
 
 h1{
@@ -69,3 +84,13 @@ footer{
     text-align: center;
     color: #ffffff;
 }
+
+span{
+    color: #17abb3;
+}
+
+.grey:hover{
+    background-color: #e3e3e3;
+    border-left-color: #17abb3;
+}
+/* le côté gauche ne veut pas devenir bleu */
