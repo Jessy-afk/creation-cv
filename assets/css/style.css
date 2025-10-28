@@ -35,6 +35,11 @@ nav{
     flex-wrap: wrap;
 }
 
+div{
+    display:flex;
+    
+}
+
 main{
     display:flex;
     flex-basis: row;
